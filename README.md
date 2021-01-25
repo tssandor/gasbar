@@ -14,7 +14,7 @@ Now you can, look! **L**(ow) | **A**(verage) | **H**(igh) gas fees, in gwei!
 ## Oke how do I set this up?
 
 ### 1. Download BetterTouchTool
-[You'll need it.]((https://folivora.ai/)
+[You'll need it.](https://folivora.ai/)
 
 ### 2. Clone this repo
 Or just grab the gasbar.py file, you don't need anything else
