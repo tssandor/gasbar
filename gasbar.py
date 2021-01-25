@@ -1,4 +1,6 @@
-# SEE README.md ON HOW TO ADD THE SCRIPT TO YOUR TOUCHBAR
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import os
 import requests
 from requests.exceptions import HTTPError
@@ -15,6 +17,7 @@ def check_gas():
         api_url = "https://api.etherscan.io/api?module=gastracker&action=gasoracle&apikey=" + token
         response = requests.get(api_url)
         response.raise_for_status()
+        # access JSOn content
         jsonResponse = response.json()
 
         if jsonResponse["message"] == "OK":
